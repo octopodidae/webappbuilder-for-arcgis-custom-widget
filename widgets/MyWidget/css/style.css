@@ -1,0 +1,116 @@
+.jimu-widget-mywidget div:first-child{
+  color: red;
+}
+
+/* #my_div {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+#flex_container > p {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+#flex_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}      */
+
+.jimu-panel{
+  height: 20% !important;
+}
+
+.foldable-btn {
+  display: none !important;
+}
+
+.jimu-foldable-panel>.jimu-panel-title {
+  cursor: default !important;
+}
+
+.close-btn{
+  cursor: pointer;
+  color: white !important;
+}
+
+.colorpicker {
+  margin-top: 1.1em;
+  font-size: 0.875em;
+  text-align: center;
+  /*display: inline-block;*/
+  width: 100%;
+  max-width: 30em;
+  background: #000;
+  padding: 0.5em;
+  border-radius: 0.35em;
+  -webkit-box-shadow: 0 0.5em 1.5em rgba(0,0,0,0.15);
+  box-shadow: 0 0.5em 1.5em rgba(0,0,0,0.15);/**/
+}
+.colorpicker label {
+  -webkit-tap-highlight-color: rgba(255,255,255,0.5);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: table-cell;/**/
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+  letter-spacing: -0.5em;
+  color: transparent;
+  opacity: 0.6;
+  width: 1%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.1)), to(rgba(0,0,0,0.1)));
+  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+.colorpicker label.red {
+  background-color: #ff3e05;
+  -webkit-tap-highlight-color: #ff3e05;
+}
+.colorpicker label.orange {
+  background-color: #ff8d05;
+  -webkit-tap-highlight-color: #ff8d05;
+}
+.colorpicker label.yellow {
+  background-color: #ecca05;
+  -webkit-tap-highlight-color: #ecca05;
+}
+.colorpicker label.green {
+  background-color: #40af04;
+  -webkit-tap-highlight-color: #40af04;
+}
+.colorpicker label.blue {
+  background-color: #057fff;
+  -webkit-tap-highlight-color: #057fff;
+}
+.colorpicker label.indigo {
+  background-color: #7500ca;
+  -webkit-tap-highlight-color: #7500ca;
+}
+.colorpicker label.violet {
+  background-color: #cc6fcc;
+  -webkit-tap-highlight-color: #cc6fcc;
+}
+.colorpicker label:first-of-type {
+  border-radius: 0.25em 0 0 0.25em;
+}
+.colorpicker label:last-of-type {
+  border-radius: 0 0.25em 0.25em 0;
+}
+
+.colorpicker label:hover {
+  opacity: 1;
+  color: #fff;
+  letter-spacing: normal;
+}
+.colorpicker input {
+  display: none;
+}
+.colorpicker input:checked + label {
+  /*width: 40%;*/
+  opacity: 1;
+  color: #fff;
+  letter-spacing: normal;
+}
